@@ -1,0 +1,12 @@
+#IDEA
+.idea
+
+#VsCode
+.vscode
+
+# Environments
+.venv
+
+# secrets
+src/.env
+.env

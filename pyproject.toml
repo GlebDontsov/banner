@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "baner_service"
+version = "0.1.0"
+description = ""
+authors = ["dontsov"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.110.1"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = "1.7.4"
+python-multipart = "^0.0.9"
+isort = "^5.13.2"
+wemake-python-styleguide = "^0.19.2"
+mypy = "^1.9.0"
+SQLAlchemy = "^2.0.29"
+asyncpg = "^0.29.0"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+fastapi-cache2 = {extras = ["redis"], version = "^0.2.1"}
+pytest = "^8.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
